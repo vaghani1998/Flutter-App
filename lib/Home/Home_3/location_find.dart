@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geolocator/geolocator.dart';
@@ -118,7 +120,6 @@ class _LocationFindState extends State<LocationFind> {
                               });
                             },
                             child: Container(
-                              width: 95.w,
                               height: 30.h,
                               margin: EdgeInsets.only(bottom: 12.h),
                               child: Row(
